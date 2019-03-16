@@ -6,11 +6,21 @@ class Article {
         this.expand = article.querySelector('.expandButton');
         this.expand.textContent = 'expand';
         
+        this.expand.addEventListener('click', () => this.toggle() );
+        
     }
     
-    
-    
-    
+    toggle() {
+        this.article.classList.toggle('article-open');
+        
+        console.log(this.expand.textContent);
+        
+        if (this.expand.textContent === 'expand') {
+            this.expand.textContent = 'collapse';
+        } else {
+            this.expand.textContent = 'expand';
+        }
+    }
 }
 
 
