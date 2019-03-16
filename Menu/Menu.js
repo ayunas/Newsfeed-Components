@@ -4,8 +4,6 @@ const hamburger = document.querySelector('.menu-button');
 
 const menu = document.querySelector('.menu');
 
-console.log(menu);
-
 function toggleMenu() {
 //    menu.style.display = 'block';
     menu.classList.toggle('menu--open');
