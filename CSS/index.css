@@ -21,7 +21,7 @@
 /* It is important to note, you will not be writing any CSS in this file*/
 .header {
   width: 100%;
-  height: 75px;
+  height: 110px;
   background-color: #388E3C;
   color: white;
   display: flex;
@@ -37,8 +37,12 @@
 }
 html,
 body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   font-family: 'Roboto';
   background-color: #fffef7;
+}
+html .articles,
+body .articles {
+  padding: 10px;
 }
